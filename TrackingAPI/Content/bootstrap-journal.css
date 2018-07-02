@@ -629,8 +629,8 @@ pre code {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    border: 2px solid black;
-    border-radius: 25px;
+    /*border: 2px solid black;*/
+    /*border-radius: 25px;*/
     padding-top: 20px;
     margin: 10px;
     text-align: center;
@@ -1111,8 +1111,8 @@ pre code {
     max-width: 25%;
   }
     .col-md-4 {
-        border: 2px solid black;
-        border-radius: 25px;
+        /*border: 2px solid black;
+        border-radius: 25px;*/
         padding-top: 20px;
         margin: 10px;
         text-align: center;

@@ -5,7 +5,7 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -28,8 +28,10 @@ textarea {
     /*border: 2px solid black;*/
     text-align: center;
     width: 80%;
-    left: 10%;
+    left: 12%;
     position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
 }
 
 #b1 {
@@ -57,8 +59,8 @@ textarea {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    border: 2px solid black;
-    border-radius: 25px;
+    /*border: 2px solid black;
+    border-radius: 25px;*/
     padding-top: 20px;
     margin: 10px;
     text-align: center;
@@ -66,4 +68,11 @@ textarea {
     height: 150px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
 }

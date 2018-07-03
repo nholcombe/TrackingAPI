@@ -23,7 +23,7 @@ namespace TrackingAPI
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-journal.css",
+                      "~/Content/bootstrap-mat.css",
                       "~/Content/site.css"));
         }
     }

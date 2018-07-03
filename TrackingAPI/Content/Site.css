@@ -46,35 +46,12 @@ textarea {
     margin-right: auto;
 }
 
-#or {
-    position: relative;
-    text-align: center;
-    top: 100px;
-}
-
-#OrBox {
-    position: relative;
-    top: 50px;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    /*border: 2px solid black;
-    border-radius: 25px;*/
-    padding-top: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #title {
     text-align: center;
-    background-color: black;
+    background-color: #2196F3;
     color: white;
     padding-bottom: 20px;
+    padding-top:20px;
 }
 
 #HomeNav {

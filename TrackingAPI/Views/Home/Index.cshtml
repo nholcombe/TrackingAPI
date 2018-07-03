@@ -3,23 +3,11 @@
 }
 
 <div class="row">
-    <div class="col-md-4">
-        <h2>Enter Tracking <br />Number</h2><br />
-             <form class="form-inline my-2 my-lg-0">
-                  <input id="input" class="form-control mr-sm-2" type="text" placeholder="Tracking Number"><br /><br /><br />
-                  @Html.ActionLink("Search", "Output", "Home", new { @id = "HomeNav", @class = "btn btn-warningHome" })
-             </form>
-    </div>
-
-    @*<div class="col-md-4">
-        <p id="or"><b>OR</b></p>
-    </div>*@
-    
-    <div class="col-md-4">
-        <h2>Enter Order <br />Number</h2><br />
-            <form class="form-inline my-2 my-lg-0">
-                <input id="input" class="form-control mr-sm-2" type="text" placeholder="Order Number"><br /><br /><br />
-                @Html.ActionLink("Search", "Output", "Home", new { @id = "HomeNav", @class = "btn btn-warningHome" })
-            </form>
+    <div class="col">
+        <h2>Enter a tracking <br />number or order ID below.</h2><br />
+        <form class="form-inline my-2 my-lg-0">
+            <input id="input" class="form-control form-control-lg" type="text" placeholder="Tracking Number"><br /><br /><br />
+            <button class="btn btn-primary btn-lg" type="button">Search</button>
+        </form>
     </div>
 </div>

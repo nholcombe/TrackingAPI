@@ -26,5 +26,12 @@ namespace TrackingAPI.Controllers
 
             return View();
         }
+
+        public ActionResult Output()
+        {
+            ViewBag.Message = "Output";
+
+            return View();
+        }
     }
 }

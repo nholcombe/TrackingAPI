@@ -5,21 +5,21 @@
 <div class="row">
     <div class="col-md-4">
         <h2>Enter Tracking <br />Number</h2><br />
-        <form class="form-inline my-2 my-lg-0">
-            <input id="input" class="form-control mr-sm-2" type="text" placeholder="Tracking Number"><br /><br /><br />
-            <button id="b1" class="btn btn-secondary my-2 my-sm-0" type="submit">Submit</button>
-        </form>
+             <form class="form-inline my-2 my-lg-0">
+                  <input id="input" class="form-control mr-sm-2" type="text" placeholder="Tracking Number"><br /><br /><br />
+                  @Html.ActionLink("Search", "Output", "Home", new { @id = "HomeNav", @class = "btn btn-warningHome" })
+             </form>
     </div>
 
-    @*<div class="col-md-4">*@
-        @*<p id="or"><b>OR</b></p>*@
-    @*</div>*@
+    @*<div class="col-md-4">
+        <p id="or"><b>OR</b></p>
+    </div>*@
     
     <div class="col-md-4">
         <h2>Enter Order <br />Number</h2><br />
-        <form class="form-inline my-2 my-lg-0">
-            <input id="input" class="form-control mr-sm-2" type="text" placeholder="Order Number"><br /><br /><br />
-            <button id="b1" class="btn btn-secondary my-2 my-sm-0" type="submit">Submit</button>
-        </form>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="input" class="form-control mr-sm-2" type="text" placeholder="Order Number"><br /><br /><br />
+                @Html.ActionLink("Search", "Output", "Home", new { @id = "HomeNav", @class = "btn btn-warningHome" })
+            </form>
     </div>
 </div>

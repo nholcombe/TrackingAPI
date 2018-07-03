@@ -1,6 +1,7 @@
 ﻿body {
     /*padding-top: 50px;*/
     /*padding-bottom: 20px;*/
+    background-color: steelblue;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -46,35 +47,12 @@ textarea {
     margin-right: auto;
 }
 
-#or {
-    position: relative;
-    text-align: center;
-    top: 100px;
-}
-
-#OrBox {
-    position: relative;
-    top: 50px;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    /*border: 2px solid black;
-    border-radius: 25px;*/
-    padding-top: 20px;
-    margin: 10px;
-    text-align: center;
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #title {
     text-align: center;
     background-color: black;
     color: white;
     padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 #HomeNav {
@@ -83,4 +61,10 @@ textarea {
     background-color: lightgrey;
     margin-left: auto;
     margin-right: auto;
+}
+
+#cards {
+    position: relative;
+    width: 100%;
+    float: left;
 }

@@ -7898,7 +7898,12 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    position: relative;
+    left: 10px;
 }
 
 .ml-2,
@@ -8658,10 +8663,15 @@ button.bg-dark:focus {
   .mx-lg-0 {
     margin-right: 0 !important;
   }
-  .mb-lg-0,
-  .my-lg-0 {
-    margin-bottom: 0 !important;
-  }
+    .mb-lg-0,
+    .my-lg-0 {
+        margin-bottom: 0 !important;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        position: relative;
+        left: 270px;
+    }
   .ml-lg-0,
   .mx-lg-0 {
     margin-left: 0 !important;

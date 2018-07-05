@@ -1,7 +1,6 @@
 ﻿body {
     /*padding-top: 50px;*/
     /*padding-bottom: 20px;*/
-    background-color: steelblue;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -49,10 +48,10 @@ textarea {
 
 #title {
     text-align: center;
-    background-color: black;
+    background-color: #2196F3;
     color: white;
     padding-bottom: 20px;
-    padding-top: 25px;
+    padding-top:20px;
 }
 
 #HomeNav {
@@ -61,10 +60,4 @@ textarea {
     background-color: lightgrey;
     margin-left: auto;
     margin-right: auto;
-}
-
-#cards {
-    position: relative;
-    width: 100%;
-    float: left;
 }

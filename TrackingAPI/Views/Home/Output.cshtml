@@ -9,13 +9,15 @@
     <h1>Status:</h1>
     <h3>POD:</h3>
     <h3>Carrier:</h3> <h3>Service:</h3>
-    <h3>From: Blah
-    <span style="rotation:180deg">
-        <i class="material-icons">
-            send
-        </i> 
-    </span>Blah</h3>
-   
+    <h3>
+        From: Blah
+        <span style="rotation:180deg">
+            <i class="material-icons">
+                send
+            </i>
+        </span>Blah
+    </h3>
+
 </center>
 
 
@@ -34,6 +36,7 @@
     </table>
 </div>
 
-<button class="btn btn-primary btn-lg" type="button">Back</button>
+@*<button class="btn btn-primary btn-lg" type="button">Back</button>*@
+@Html.ActionLink("Back", "Index", "Home", new { @id = "HomeNav", @class = "btn btn-primary btn-lg" })
 
 
